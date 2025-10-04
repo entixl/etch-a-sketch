@@ -16,12 +16,14 @@ body {
 .grid-section {
 	display: flex;
 	justify-content: center;
-	width: 500px;
-	height: 510px;
+	align-items: center;
+	width: 400px;
+	height: 400px;
 	flex-wrap: wrap;
-	gap: 5px;
 }
 .grid-button {
 	width: 25px;
 	height: 25px;
+}
+.grid-button-hover {
 }
