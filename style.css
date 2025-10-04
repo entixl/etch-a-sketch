@@ -8,7 +8,20 @@
 body {
 	display: flex;
 	height: 100vh;
+	background-color: rgba(20, 209, 146, 0.969);
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+}
+.grid-section {
+	display: flex;
+	justify-content: center;
+	width: 500px;
+	height: 510px;
+	flex-wrap: wrap;
+	gap: 5px;
+}
+.grid-button {
+	width: 25px;
+	height: 25px;
 }
